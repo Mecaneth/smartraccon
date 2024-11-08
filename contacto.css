@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(IMG/fondo.png);
+    background-size: cover;
+}
+header {
+    text-align: center;
+    color: white;
+
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #335ed6;
+    border-radius: 5px;
+    background-color: #325addb4;
+    color: white;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #e14242;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e16242;
+}
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #3b5998; /* Facebook */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.social-buttons a:hover {
+    background-color: #2d4373;
+}
+.social-buttons a.twitter {
+    background-color: #1df21d; /* Twitter */
+}
+.social-buttons a.twitter:hover {
+    background-color: #1a91da;
+}
+.social-buttons a.instagram {
+    background-color: #e1306c; /* Instagram */
+}
+.social-buttons a.instagram:hover {
+    background-color: #c13584;
+}
